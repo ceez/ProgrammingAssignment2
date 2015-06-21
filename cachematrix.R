@@ -1,6 +1,8 @@
 ## Chris Cowan
 
 ## Create a matrix object with a cache to store the inverse
+## This object is strictly a bucket.  Calculation must be performed by 
+## an outside method.
 
 makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL
